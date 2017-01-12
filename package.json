@@ -1,0 +1,36 @@
+{
+  "name": "post-enzyme",
+  "version": "1.0.0",
+  "description": "Simple react application, test-driven using enzyme",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha *-spec.js --require babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenield/post-enzyme.git"
+  },
+  "keywords": [
+    "react",
+    "enzyme",
+    "mocha",
+    "tdd"
+  ],
+  "author": "Steve Nield, Winter Softworks Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenield/post-enzyme/issues"
+  },
+  "homepage": "https://github.com/stevenield/post-enzyme#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-react": "^6.16.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.0",
+    "mocha": "^3.2.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "dependencies": {}
+}
